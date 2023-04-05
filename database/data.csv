@@ -1,0 +1,45 @@
+Bouwdelen,,,,,,,,Calculatiewaarde,,,,,,,,Waardebepaling,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Naam,Type,Variant,Lengte [m],Breedte [m],Oppervlakte [m],Kozijnen/deuren,,Eff Opp. [m],U-Waarde contructie,U-Waarde Thermische bruggen,fk,"fiak",fgw,"figk",,R-Waarde,Laag 1: Baksteen,,Laag 3: Isolatie,,Laag 2: Beton,
+,,,,,,,,,,,,,,,,,λcalc [W/ (m·K)],d [m],λcalc [W/ (m·K)],d [m],λcalc [W/ (m·K)],d [m]
+,,,,,,,,,,,,,,,,,,,,,,
+Muur-GZ-BG-01,Buitenmuur,Twee steenlagen met spouw en isolatie,8.2,2.6,21.32,Nee,,21.32,0.32,0.1,1,,,,,3.00,1.16,0.1,0.036,0.1,1.091,0.15
+Muur-GZ-01-01,Buitenmuur,Twee steenlagen met spouw en isolatie,8.2,2.4,19.68,Nee,,19.68,0.32,0.1,1,,,,,3.00,1.16,0.1,0.036,0.1,1.091,0.15
+,,,,,,,,,,,,,,,,,,,,,Laag 2: Cellenbeton,
+Muur-VG-BG-02,Buitenmuur,Twee steenlagen met spouw en isolatie,5.2,2.6,13.52,Ja,,8.975,0.32,0.1,1,,,,,2.95,1.16,0.1,0.036,0.1,1.126,0.1
+Muur-VG-01-02,Buitenmuur,Twee steenlagen met spouw en isolatie,5.2,2.4,12.48,Ja,,10.715,0.32,0.1,1,,,,,2.95,1.16,0.1,0.036,0.1,1.126,0.1
+,,,,,,,,,,,,,,,,,,,,,Laag 2: Cellenbeton,
+Muur-AG-BG-03,Buitenmuur,Twee steenlagen met spouw en isolatie,5.2,2.6,13.52,Ja,,4.9845,0.32,0.1,1,,,,,2.95,1.16,0.1,0.036,0.1,1.126,0.1
+Muur-AG-01-03,Buitenmuur,Twee steenlagen met spouw en isolatie,5.2,2.4,12.48,Ja,,5.76,0.32,0.1,1,,,,,2.95,1.16,0.1,0.036,0.1,1.126,0.1
+,,,,,,,,,,,,,,,,,,,,,Laag 2: Beton,
+Muur-SM-BG-04,Binnenmuur,Twee steenlagen met spouw en isolatie,9.7,2.6,25.22,Nee,,25.22,2.26,0.1,,#NAME?,,,,0.18,,,,,1.091,0.2
+Muur-SM-01-04,Binnenmuur,Twee steenlagen met spouw en isolatie,9.7,2.4,23.28,Nee,,23.28,2.26,0.1,,#NAME?,,,,0.18,,,,,1.091,0.2
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,Laag 3: Isolatie,R-waarde,Laag 2: Beton,R-waarde
+Vloer-KR-BG,Vloer-BG,Kwaaitaalvloer,8.2,5.2,42.64,Nee,,42.64,0.23,0.1,,,1,#NAME?,,,,,,3.6,,0.6
+Vloer-VD-01,Buitenmuur,Vloer,5.2,1.23,6.396,Nee,,6.396,0.58,0.1,1,,,,,1.37,1.831,0.15,0.32,0.0125,0.036,0.045
+Vloer-SS-02,Bovenburen,Vloer,9.7,5.2,50.44,Nee,,50.44,2.08,0.1,,#NAME?,,,,0.12,1.831,0.15,0.32,0.0125,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Kozijn-VG-BG-02,Buitenmuur,Kozijn,1.5,0.45,0.325,,,0.325,4.18,0.1,1,,,,,,,,,,,
+Raam-VG-BG-02,Buitenmuur,Raam,1,0.35,0.35,,,0.35,1.2,0,1,,,,,,,,,,,
+Deur-VG-BG-02-01,Buitenmuur,Houten deur,2.15,0.9,1.935,,,1.935,1.46,0.1,1,,,,,,,,,,,
+Deur-VG-BG-02-02,Buitenmuur,Houten deur,2.15,0.9,1.935,,,1.935,1.2,0,1,,,,,,,,,,,
+Kozijn-VG-01-02-01,Buitenmuur,Kozijn,1.62,0.45,0.729,,,0.729,4.18,0.1,1,,,,,,,,,,,
+Raam-VG-01-02-01,Buitenmuur,Raam,1.4,0.35,0.49,,,0.49,1.2,0,1,,,,,,,,,,,
+Kozijn-VG-01-02-02,Buitenmuur,Kozijn,0.56,0.45,0.252,,,0.252,4.18,0.1,1,,,,,,,,,,,
+Raam-VG-01-02-02,Buitenmuur,Raam,0.84,0.35,0.294,,,0.294,1.2,0,1,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Kozijn-AG-BG-03-01,Buitenmuur,Kozijn,2.15,0.77,0.6805,,,0.6805,1.7,0.1,1,,,,,,,,,,,
+Raam-AG-BG-03-01,Buitenmuur,Raam,1.5,0.65,0.975,,,0.975,1.2,0,1,,,,,,,,,,,
+Deur-AG-BG-03,Buitenmuur,"Houten deur, glas >65%",2.15,0.8,0.615,,,0.615,1.2,0.1,1,,,,,,,,,,,
+Raam-AG-BG-03,Buitenmuur,Raam,1.7,0.65,1.105,,,1.105,1.2,0,1,,,,,,,,,,,
+Kozijn-AG-BG-03-02,Buitenmuur,Kozijn,2.4,2.15,1.785,,,1.785,1.7,0.1,1,,,,,,,,,,,
+Raam-AG-BG-03-02,Buitenmuur,Raam,2.25,1.5,3.375,,,3.375,1.2,0,1,,,,,,,,,,,
+Kozijn-AG-01-03-03,Buitenmuur,Kozijn,2.1,1.6,1.081,,,1.081,1.7,0.1,1,,,,,,,,,,,
+Raam-AG-01-03-03,Buitenmuur,Raam,1.35,1.24,1.674,,,1.674,1.2,0,1,,,,,,,,,,,
+Raam-AG-01-03-04,Buitenmuur,Raam,0.55,1.1,0.605,,,0.605,1.2,0,1,,,,,,,,,,,
+Kozijn-AG-01-03-04,Buitenmuur,Kozijn,2.1,1.6,1.081,,,1.081,1.7,0.1,1,,,,,,,,,,,
+Raam-AG-01-03-05,Buitenmuur,Raam,1.35,1.24,1.674,,,1.674,1.2,0,1,,,,,,,,,,,
+Raam-AG-01-03-06,Buitenmuur,Raam,0.55,1.1,0.605,,,0.605,1.2,0,1,,,,,,,,,,,
